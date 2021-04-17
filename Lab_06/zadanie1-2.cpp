@@ -5,6 +5,7 @@
 #include <queue>
 
 constexpr int QUEUE_MAX_SIZE = 8;
+static_assert(QUEUE_MAX_SIZE > 1, "Kolejka musi mieć więcej 1 elementu");
 
 void printVector(const std::vector<int>& v) {
     for (const auto n : v) {
