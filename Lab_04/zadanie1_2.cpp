@@ -15,7 +15,7 @@ class starosta : public student {
 public:
     string Opis_ = "starosta grupy";
 
-    void printOpis();
+    void printOpis() over;
 };
 
 student::student() {
@@ -49,6 +49,6 @@ int main() {
 
     /*
      * 2. Wywołaj dla niego metodę printOpis(). Jaki jest rezultat? Jaki z tego płynie wniosek?
-     * O: Pojawila sie nowa definicja metody i wywola sie ta "najnowsza"
+     * O: Pojawila sie nowa definicja metody i wywola sie ta ostatnia
      * */
 }
